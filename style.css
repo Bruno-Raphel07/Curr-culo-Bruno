@@ -1,6 +1,4 @@
-/* ===========================
-   CONFIGURAÇÕES GERAIS
-=========================== */
+
 
 *{
     margin:0;
@@ -14,10 +12,6 @@ body{
     color:#fff;
 }
 
-/* ===========================
-SIDEBAR
-=========================== */
-
 .sidebar{
     background:#0b1628;
     min-height:100vh;
@@ -27,11 +21,11 @@ SIDEBAR
 .perfil{
     width:220px;
     border-radius:20px;
-    border:4px solid #2f6bff;
+    border:4px solid #2ff1ff;
 }
 
 .titulo{
-    color:#2f6bff;
+    color:#2ff1ff;
     margin-top:20px;
 }
 
@@ -41,7 +35,7 @@ SIDEBAR
 }
 
 .info i{
-    color:#2f6bff;
+    color:#2ff1ff;
     margin-right:8px;
 }
 
@@ -58,7 +52,7 @@ SIDEBAR
 }
 
 .redes a:hover{
-    color:#2f6bff;
+    color: #2ff1ff;
     transform:translateX(8px);
 }
 
@@ -66,9 +60,7 @@ SIDEBAR
     margin-right:10px;
 }
 
-/* ===========================
-NAVBAR
-=========================== */
+
 
 .navbar{
     background:#0b1628;
@@ -81,16 +73,12 @@ NAVBAR
 }
 
 .nav-link:hover{
-    color:#2f6bff !important;
+    color:#2ff1ff !important;
 }
 
 .navbar-brand{
     font-size:24px;
 }
-
-/* ===========================
-HERO
-=========================== */
 
 .hero{
     background:#0b1628;
@@ -104,7 +92,7 @@ HERO
 }
 
 .text-primary{
-    color:#2f6bff !important;
+    color:#2ff1ff !important;
 }
 
 .hero p{
@@ -120,14 +108,11 @@ HERO
 .linha{
     width:120px;
     height:5px;
-    background:#2f6bff;
+    background:#2ff1ff;
     border-radius:20px;
     margin-top:10px;
 }
 
-/* ===========================
-CARDS
-=========================== */
 
 .card{
     border:none;
@@ -140,7 +125,7 @@ CARDS
 
 .card:hover{
     transform:translateY(-10px);
-    box-shadow:0 15px 35px rgba(47,107,255,.3);
+    box-shadow:0 15px 35px rgb(20, 222, 248);
 }
 
 .card-body{
@@ -151,9 +136,6 @@ CARDS
     margin-bottom:20px;
 }
 
-/* ===========================
-ÍCONES DAS HABILIDADES
-=========================== */
 
 .icone{
     width:65px;
@@ -167,31 +149,25 @@ CARDS
     transform:scale(1.15);
 }
 
-/* ===========================
-BADGE
-=========================== */
+
 
 .badge{
     padding:10px 15px;
     font-size:15px;
 }
 
-/* ===========================
-BOTÕES
-=========================== */
+
 
 .btn-primary{
-    background:#2f6bff;
+    background:#2ff1ff;
     border:none;
 }
 
 .btn-primary:hover{
-    background:#184fcf;
+    background:#2ff1ff;
 }
 
-/* ===========================
-SCROLL
-=========================== */
+
 
 ::-webkit-scrollbar{
     width:10px;
@@ -202,13 +178,11 @@ SCROLL
 }
 
 ::-webkit-scrollbar-thumb{
-    background:#2f6bff;
+    background:#2ff1ff;
     border-radius:20px;
 }
 
-/* ===========================
-RESPONSIVO
-=========================== */
+
 
 @media(max-width:992px){
 
